@@ -1,0 +1,89 @@
+
+
+.carousel-item img{
+    width:100%;
+    height: 80vh;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    
+   
+}
+
+.form-label{
+width: 50% ;
+}
+
+
+
+  .carousel-inner {
+    display: flex;
+  }
+  .carousel-item {
+    flex: 0 0 auto;
+    transition: transform 0.6s ease;
+  }
+  .movie-card {
+    width:full;
+    /* margin: 0 0.5rem; */
+    margin-left:0.5rem ;
+    flex: 1; /* Each movie card takes equal space */
+             /* Limit width, you can adjust this */
+    display: flex;
+    justify-content: center;
+    
+  }
+  .movie-card img {
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+  }
+  .movie-section {
+    padding: 2rem;
+  }
+
+  button{
+    background-color: blue;
+    
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {
+  top: 0;
+  bottom: 0;
+  width: 40px;
+ 
+  opacity: 0.8;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgb(91, 86, 86);
+  opacity: 0.5;
+}
+
+.carousel-control-prev {
+  left: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.carousel-control-next {
+  right: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.list-group{
+    width: 50%;
+    justify-items:auto;
+    
+}
+
+.card-body{
+      
+}
+
